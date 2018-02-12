@@ -1,0 +1,29 @@
+{
+  "name": "canvas-syncing-assignment-part1",
+  "version": "1.0.0",
+  "description": "Part1 of homework",
+  "main": "./src/server.js",
+  "scripts": {
+      "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SomeJerk/canvas-syncing-assignment-part1.git"
+  },
+  "author": "Jason Noone",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/SomeJerk/canvas-syncing-assignment-part1/issues"
+  },
+  "homepage": "https://github.com/SomeJerk/canvas-syncing-assignment-part1#readme",
+  "dependencies": {
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
